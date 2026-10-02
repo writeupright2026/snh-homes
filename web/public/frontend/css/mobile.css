@@ -1,0 +1,95 @@
+@media (max-width: 991px) {
+  body:has(.footer-main) {
+    overflow-x: hidden;
+    padding-bottom: 92px;
+  }
+
+  .top-header .leftCont {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 0.35rem 0.5rem;
+    font-size: 13px;
+  }
+
+  .top-header .btn-style {
+    margin-top: 0.25rem;
+  }
+
+  .header-section .container.main-div {
+    max-width: 100%;
+  }
+
+  .header-section .logo img,
+  .header-section .navbar-brand {
+    max-width: 140px;
+  }
+
+  .ic.menu {
+    display: block;
+    top: 18px;
+    z-index: 80;
+  }
+
+  body.nav-open .header-section ul.main-nav {
+    width: min(320px, 88vw);
+    padding: 4.5rem 0 2rem;
+    z-index: 70;
+    background: #111;
+  }
+
+  body.nav-open .header-section ul.main-nav > li {
+    opacity: 1;
+  }
+
+  .ic.menu .line {
+    background: #fff;
+  }
+
+  .listing_pro .col-12,
+  .holiday_pro .col-lg-4,
+  .blog-wrap,
+  .blog-wrap .et_pb_blog {
+    width: 100%;
+  }
+
+  .feature_img img,
+  .card-img-top {
+    height: auto !important;
+    max-height: 240px;
+    object-fit: cover;
+  }
+
+  .form-container,
+  .filterCont .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .bottom-fix {
+    display: block !important;
+  }
+
+  .bottom-fix ul li img {
+    width: 36px !important;
+  }
+
+  footer .footer-main .row > div {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.social-icons li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.social-icons li svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  display: block;
+}
